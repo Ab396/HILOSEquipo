@@ -12,7 +12,7 @@ class Program
         Thread hilo2 = new Thread(Contar);
         Thread hilo3 = new Thread(Contar);
         Thread hilo4 = new Thread(Contar);
-
+        Thread hilo5 = new Thread(Contar); //agregue otro hilo que es el hilo 5
         // Iniciar los hilos y pasarles un nombre como argumento
         hilo1.Start("Hilo 1");
         hilo2.Start("Hilo 2");
